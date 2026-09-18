@@ -10,9 +10,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Pedido recebido | O Operador</title>
+<title>Pedido recebido | Artemis</title>
 <meta name="theme-color" content="#121417">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23121417'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' font-weight='700' text-anchor='middle' fill='white'%3EO%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23121417'/%3E%3Cg transform='translate%289 12.4%29 scale%28.782%29'%3E%3Cpath fill='white' d='M24.7224 0C27.4964 0 30.0724 1.43849 31.5285 3.80078L58.7715 48H47.2427C44.4687 48 41.8927 46.5615 40.4366 44.1992L35.3828 36H26.787C19.9898 36 14.4318 41.3035 14.019 48H12.3682C11.9636 41.4352 6.61423 36.2098 0 36.0066V34.393C6.61422 34.1898 11.9636 28.9648 12.3682 22.4H14.019C14.4318 29.0966 19.9898 34.4 26.787 34.4H34.3966L13.1936 0H24.7224Z'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400..900&family=Newsreader:opsz,wght@6..72,400..700&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
   *,*::before,*::after{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
   .faixa{background:var(--escuro);color:#fff;text-align:center;padding:18px 20px 15px}
-  .faixa b{display:block;font:700 clamp(1.85rem,1.3rem + 2.2vw,2.6rem)/1 var(--serif);letter-spacing:-.022em}
-  .faixa span{display:block;margin-top:7px;font:600 .625rem/1.2 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:#B9BEC6}
+  .faixa .logo{display:block;height:clamp(30px,24px + 1.2vw,40px);width:auto;margin:0 auto}
+  .faixa span{display:block;margin-top:10px;font:600 .625rem/1.2 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:#B9BEC6}
   main{flex:1;max-width:620px;margin:0 auto;padding:48px 20px 64px}
   .rot{display:inline-flex;align-items:center;gap:9px;font:800 .6875rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--azul-texto);margin:0 0 14px}
   .rot::before{content:"";width:9px;height:9px;background:var(--azul)}
@@ -40,7 +40,7 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WW4JRN7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<header class="faixa"><b>O Operador</b><span>Negócios, gestão e inteligência artificial</span></header>
+<header class="faixa"><img class="logo" src="../img/artemis-lockup.svg" width="206" height="48" alt="Artemis"><span>Negócios, gestão e inteligência artificial</span></header>
 <main>
   <p class="rot">Diagnóstico de operação · Studio Artemis</p>
   <h1>Pedido recebido</h1>
@@ -51,6 +51,6 @@
   </ol>
   <a class="volta" href="../">Voltar para a matéria</a>
 </main>
-<footer>O Operador é um espaço editorial mantido pela Artemis, empresa de tecnologia.</footer>
+<footer>Espaço editorial mantido pela Artemis, empresa de tecnologia.</footer>
 </body>
 </html>
